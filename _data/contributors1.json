@@ -1,0 +1,455 @@
+{
+  "@context": "https://schema.org",
+  "contributor": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0522-5674",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-0522-5674",
+      "givenName": "Bert",
+      "familyName": "Droesbeke",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "VIB-UGent / ELIXIR-BE"
+      },
+      "email": "bedro@psb.ugent.be",
+      "url": "https://github.com/bedroesb/",
+      "image": "https://avatars.githubusercontent.com/bedroesb",
+      "jobTitle": "editor"
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-4665-6673",
+      "givenName": "Flora",
+      "familyName": "D'Anna",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "VIB-UGent / ELIXIR-BE"
+      },
+      "url": "https://github.com/floradanna/",
+      "image": "https://avatars.githubusercontent.com/floradanna",
+      "jobTitle": "editor"
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-1511-277X",
+      "givenName": "Daniel",
+      "familyName": "Faria",
+      "url": "https://github.com/DanFaria/",
+      "image": "https://avatars.githubusercontent.com/DanFaria",
+      "jobTitle": "editor"
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-2224-0780",
+      "givenName": "Pinar",
+      "familyName": "Alper",
+      "url": "https://github.com/pinarpink/",
+      "image": "https://avatars.githubusercontent.com/pinarpink",
+      "jobTitle": "editor",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "LCSB / ELIXIR-LU"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-1219-2137",
+      "givenName": "Carole",
+      "familyName": "Goble",
+      "url": "https://github.com/CaroleGoble/",
+      "image": "https://avatars.githubusercontent.com/CaroleGoble",
+      "jobTitle": "lead",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "The University of Manchester"
+      },
+    },
+    {
+      "@type": "Person",
+      "givenName": "Inge",
+      "familyName": "Jonassen",
+      "url": "https://github.com/ingejonassen/",
+      "image": "https://avatars.githubusercontent.com/ingejonassen",
+      "jobTitle": "lead",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Bergen"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0001-6565-5145",
+      "givenName": "Frederik",
+      "familyName": "Coppens",
+      "email": "frederik.coppens@psb.vib-ugent.be",
+      "url": "https://github.com/frederikcoppens/",
+      "image": "https://avatars.githubusercontent.com/frederikcoppens",
+      "jobTitle": "lead",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "VIB-UGent / ELIXIR-BE"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/000-0001-9114-2896",
+      "givenName": "Mijke",
+      "familyName": "Jetten",
+      "email": "m.jetten@dtls.nl",
+      "url": "https://github.com/MijkeJetten/",
+      "image": "https://avatars.githubusercontent.com/MijkeJetten",
+      "jobTitle": "editor",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-3627-5340",
+      "givenName": "Nicola",
+      "familyName": "Soranzo",
+      "url": "https://github.com/nsoranzo/",
+      "image": "https://avatars.githubusercontent.com/nsoranzo",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Earlham Institute"
+      },
+    },
+    {
+      "@type": "Person",
+      "givenName": "Munazah",
+      "familyName": "Andrabi",
+      "url": "https://github.com/smza/",
+      "image": "https://avatars.githubusercontent.com/smza",
+      "jobTitle": "editor",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "The University of Manchester"
+      },
+    },
+    {
+      "@type": "Person",
+      "givenName": "Vicky",
+      "familyName": "Sundesha",
+      "url": "https://github.com/vsundesha/",
+      "image": "https://avatars.githubusercontent.com/vsundesha",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0001-6825-9439",
+      "givenName": "Rob",
+      "familyName": "Hooft",
+      "email": "rob.hooft@dtls.nl",
+      "url": "https://github.com/rwwh/",
+      "image": "https://avatars.githubusercontent.com/rwwh",
+      "jobTitle": "editor",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0001-9472-2589",
+      "givenName": "Karel",
+      "familyName": "Berka",
+      "email": "karel.berka@upol.cz",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-0498-4273",
+      "givenName": "Korbinian",
+      "familyName": "Bösl",
+      "email": "korbinian.bosl@uib.no",
+      "url": "https://github.com/korbinib/",
+      "image": "https://avatars.githubusercontent.com/korbinib",
+      "jobTitle": "editor",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Bergen / ELIXIR-NO"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-1391-9959",
+      "givenName": "Siiri",
+      "familyName": "Fuchs",
+      "email": "siiri.fuchs@csc.fi",
+      "url": "https://github.com/siirif/",
+      "image": "https://avatars.githubusercontent.com/siirif",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CSC - IT Center for Science / ELIXIR-FI"
+      },
+    },
+    {
+      "@type": "Person",
+      "givenName": "Anastasia",
+      "familyName": "Chasapi",
+      "url": "https://github.com/achasapi/",
+      "image": "https://avatars.githubusercontent.com/achasapi",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-9077-5664",
+      "givenName": "Ulrike",
+      "familyName": "Wittig",
+      "email": "ulrike.wittig@h-its.org",
+      "url": "https://github.com/siirif/",
+      "image": "https://avatars.githubusercontent.com/siirif",
+      "jobTitle": "editor",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "HITS / ELIXIR-DE"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-3951-6680",
+      "givenName": "Wei",
+      "familyName": "Gu",
+      "email": "wei.gu@uni.lu",
+      "url": "https://github.com/weiguUL/",
+      "image": "https://avatars.githubusercontent.com/weiguUL",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "LCSB / ELIXIR-LU"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-8991-6810",
+      "givenName": "Christophe",
+      "familyName": "Trefois",
+      "email": "trefex@gmail.com",
+      "url": "https://github.com/trefex/",
+      "image": "https://avatars.githubusercontent.com/trefex",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "LCSB / ELIXIR-LU"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-4520-044X",
+      "givenName": "Niclas",
+      "familyName": "Jareborg",
+      "email": "niclas.jareborg@nbis.se",
+      "url": "https://github.com/nicjar/",
+      "image": "https://avatars.githubusercontent.com/nicjar",
+      "jobTitle": "editor",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "NBIS / ELIXIR-SE"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-0280-6318",
+      "givenName": "Elin",
+      "familyName": "Kronander",
+      "email": "elin.kronander@nbis.se",
+      "url": "https://github.com/elinkronander/",
+      "image": "https://avatars.githubusercontent.com/elinkronander",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "NBIS / ELIXIR-SE"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-3977-9600",
+      "givenName": "Yvonne",
+      "familyName": "Kallberg",
+      "email": "yvonne.kallberg@nbis.se",
+      "url": "https://github.com/yvonnekallberg/",
+      "image": "https://avatars.githubusercontent.com/yvonnekallberg",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "NBIS / ELIXIR-SE"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-1688-7112",
+      "givenName": "Markus",
+      "familyName": "Englund",
+      "email": "markus.englund@nbis.se",
+      "url": "https://github.com/jmenglund/",
+      "image": "https://avatars.githubusercontent.com/jmenglund",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "NBIS / ELIXIR-SE"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-3890-6620",
+      "givenName": "Wolmar",
+      "familyName": "Nyberg Åkerström",
+      "email": "wolmar.n.akerstrom@nbis.se",
+      "url": "https://github.com/wna-se/",
+      "image": "https://avatars.githubusercontent.com/wna-se",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "NBIS / ELIXIR-SE"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-1691-8425",
+      "givenName": "Ivan",
+      "familyName": "Mičetić",
+      "email": "ivan.micetic@unipd.it",
+      "url": "https://github.com/ivanmicetic/",
+      "image": "https://avatars.githubusercontent.com/ivanmicetic",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-3491-2361",
+      "givenName": "Robert",
+      "familyName": "Andrews",
+      "email": "andrewsr9@cardiff.ac.uk",
+      "url": "https://github.com/robertmand/",
+      "image": "https://avatars.githubusercontent.com/robertmand",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-2313-0011",
+      "givenName": "Minna",
+      "familyName": "Ahokas",
+      "email": "minna.ahokas@csc.fi",
+      "url": "https://github.com/minnami/",
+      "image": "https://avatars.githubusercontent.com/minnami",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CSC - IT Center for Science / ELIXIR-FI"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-0390-3208",
+      "givenName": "Laura",
+      "familyName": "Portell Silva",
+      "email": "laura.portell@bsc.es",
+      "url": "https://github.com/lauportell/",
+      "image": "https://avatars.githubusercontent.com/lauportell",
+      "jobTitle": "editor",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Barcelona Supercomputing Center / ELIXIR-ES"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-9016-4820",
+      "givenName": "Federico",
+      "familyName": "Bianchini",
+      "email": "federico.bianchini@mn.uio.no",
+      "url": "https://github.com/bianchini88/",
+      "image": "https://avatars.githubusercontent.com/bianchini88",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-0223-2329",
+      "givenName": "Celia",
+      "familyName": "van Gelder",
+      "email": "celia.vangelder@dtls.nl",
+      "url": "https://github.com/celiavg/",
+      "image": "https://avatars.githubusercontent.com/celiavg",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-6014-1249",
+      "givenName": "Erik",
+      "familyName": "Hjerde",
+      "email": "erik.hjerde@uit.no",
+      "url": "https://github.com/ehj000/",
+      "image": "https://avatars.githubusercontent.com/ehj000",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-1331-4311",
+      "givenName": "Daniel",
+      "familyName": "Wibberg",
+      "email": "dwibberg@cebitec.uni-bielefeld.de",
+      "url": "https://github.com/dwibberg/",
+      "image": "https://avatars.githubusercontent.com/dwibberg",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0001-8276-5135",
+      "givenName": "Priit",
+      "familyName": "Adler",
+      "email": "adler@ut.ee",
+      "url": "https://github.com/adlerpriit/",
+      "image": "https://avatars.githubusercontent.com/adlerpriit",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-0065-5053",
+      "givenName": "Grégoire",
+      "familyName": "Rossier",
+      "email": "gregoire.rossier@sib.swiss",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0001-6691-4233",
+      "givenName": "Alexander",
+      "familyName": "Botzki",
+      "email": "alexander.botzki@vib.be",
+      "url": "https://github.com/abotzki/",
+      "image": "https://avatars.githubusercontent.com/abotzki",
+    },
+    {
+      "@type": "Person",
+      "givenName": "Martin",
+      "familyName": "Cook",
+      "email": "martin.cook@elixir-europe.org",
+      "url": "https://github.com/martin-nc/",
+      "image": "https://avatars.githubusercontent.com/martin-nc",
+      "jobTitle": "editor",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "ELIXIR Hub"
+      },
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-5514-6651",
+      "givenName": "Victoria",
+      "familyName": "Dominguez D. Angel",
+      "url": "https://github.com/vdda/",
+      "image": "https://avatars.githubusercontent.com/vdda",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0003-2687-1982",
+      "givenName": "Peter",
+      "familyName": "McQuilton",
+      "url": "https://github.com/drosophilic/",
+      "image": "https://avatars.githubusercontent.com/drosophilic",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-3412-9086",
+      "givenName": "Anne-Françoise",
+      "familyName": "Adam-Blondon",
+      "email": "anne-francoise.adam-blondon@inrae.fr",
+      "url": "https://github.com/afablondon/",
+      "image": "https://avatars.githubusercontent.com/afablondon",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "INRAE / ELIXIR-FR"
+      },
+    },
+    {
+      "@type": "Person",
+      "givenName": "Nazeefa",
+      "familyName": "Fatima",
+      "url": "https://github.com/Nazeeefa/",
+      "image": "https://avatars.githubusercontent.com/Nazeeefa",
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "https://orcid.org/0000-0002-6549-0114",
+      "givenName": "Ernesto",
+      "familyName": "Picardi",
+      "email": "ernesto.picardi@uniba.it",
+    },
+  ]
+
+}

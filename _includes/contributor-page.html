@@ -1,4 +1,4 @@
-{%- assign contributors = site.data.CONTRIBUTORS %}
+{%- assign contributors = site.data.contributors1.contributor | sort: 'givenName' %}
 {%- if include.custom %}
 {%- assign allcontributors = include.custom | split: ", " | sort %}
 {%- else %}
@@ -13,40 +13,51 @@
 {%- endif  %}
 {%- endfor %}
 {%- for contr in contributors %}
-{%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
+{%- assign allcontrstr = allcontrstr | append: ", " | append: contr.givenName | append: " " | append: contr.familyName %}
 {%- endfor %}
+
 {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
 {%- endif  %}
+{%- for contributor in allcontributors %}
+  
+  {%- assign c = contributors[contributor] %}
+  {{c | inspect}}
+  {%- if c.givenName != null %}
+    {{c | inspect}}
+  {%- endif %}
+
+
+{%- endfor %}
 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5 g-4 contributor-cards">
-    {%- for contributor in allcontributors %}
+    {%- for contributor in contributors %}
     <div class="col">
       <div class="card h-100">
-        {%- assign id = contributors[contributor].git | default: 'no_github' %}
+        {%- assign id = contributor.url | default: 'no_github' %}
         <div class="position-relative">
-          {%- if contributors[contributor].image_url %}
-          <img src="{{ contributors[contributor].image_url }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor }}">
+          {%- if contributor.image %}
+          <img src="{{ contributor.image }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor.name }}">
           {%- else %}
-          <img src="https://avatars.githubusercontent.com/{{id}}" class="card-img-top p-3 rounded-circle" alt="{{ contributor }}">
+          <img src="https://avatars.githubusercontent.com/-1" class="card-img-top p-3 rounded-circle" alt="{{ contributor.name }}">
           {%- endif %}
-          {%- if contributors[contributor].role %}
-          <span class="badge position-absolute top-0 end-0">{{ contributors[contributor].role | capitalize }}</span>
+          {%- if contributor.jobTitle %}
+          <span class="badge position-absolute top-0 end-0">{{ contributor.jobTitle | capitalize }}</span>
           {%- endif %}
         </div>
         <div class="card-body text-center">
-            <p class="card-title">{{ contributor }}</p>
-            {%- if contributors[contributor].affiliation %}
-            <p class="card-affiliation">{{ contributors[contributor].affiliation }}</p>
+            <p class="card-title">{{ contributor.givenName }} {{ contributor.familyName }}</p>
+            {%- if contributor.affiliation %}
+            <p class="card-affiliation">{{ contributor.affiliation.name }}</p>
             {%- endif %}
-            {%- if contributors[contributor].git or contributors[contributor].email or contributors[contributor].orcid %}
+            {%- if contributor.url or contributor.email or contributor.mainEntityOfPage %}
             <div class="d-flex mt-3 justify-content-center social-icons">
-                {%- if contributors[contributor].git %}
-                <div class="mx-1"><a href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></div>
+                {%- if contributor.url %}
+                <div class="mx-1"><a href="{{contributor.url}}"><i class="fab fa-github"></i></a></div>
                 {%- endif %}
-                {%- if contributors[contributor].email %}
-                <div class="mx-1"><a href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></div>
+                {%- if contributor.email %}
+                <div class="mx-1"><a href="mailto:{{contributor.email}}"><i class="fas fa-envelope"></i></a></div>
                 {%- endif %}
-                {%- if contributors[contributor].orcid %}
-                <div class="mx-1"><a href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></div>
+                {%- if contributor.mainEntityOfPage %}
+                <div class="mx-1"><a href="{{contributor.mainEntityOfPage}}"><i class="fab fa-orcid"></i></a></div>
                 {%- endif %}
             </div>
             {%- endif %}
